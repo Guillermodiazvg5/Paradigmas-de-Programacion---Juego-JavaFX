@@ -50,7 +50,7 @@ public class Juego {
    * Set the value of jugador
    * @param newVar the new value of jugador
    */
-  public void setJugador (Jugador newVar) {
+   public void setJugador (Jugador newVar) {
     jugador = newVar;
   }
 
