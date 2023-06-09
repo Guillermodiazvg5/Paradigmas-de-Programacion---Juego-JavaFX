@@ -127,7 +127,7 @@ public class Juego {
    */
   public String explicarError()
   {
-      System.out.println("N/A");
+      System.out.println("N/A.");
       return null;
   }
 
