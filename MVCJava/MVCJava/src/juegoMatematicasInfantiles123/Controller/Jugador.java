@@ -1,4 +1,4 @@
-package juegoMatematicasInfantiles123;
+package juegoMatematicasInfantiles123.Controller;
 
 
 
