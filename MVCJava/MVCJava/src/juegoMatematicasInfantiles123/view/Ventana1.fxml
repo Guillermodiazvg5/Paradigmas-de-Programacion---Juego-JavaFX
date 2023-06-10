@@ -15,7 +15,7 @@
             <Image url="@../application/imagenes/fondoVentana1.png" />
          </image>
       </ImageView>
-      <Button layoutX="271.0" layoutY="340.0" mnemonicParsing="false" styleClass="blurred-button" stylesheets="@../application/applications.css" text="INICIO" textFill="#ffea00">
+      <Button layoutX="277.0" layoutY="320.0" mnemonicParsing="false" styleClass="blurred-button" stylesheets="@../application/applications.css" text="INICIO" textFill="#ffea00">
          <font>
             <Font name="Eras Bold ITC" size="36.0" />
          </font>
