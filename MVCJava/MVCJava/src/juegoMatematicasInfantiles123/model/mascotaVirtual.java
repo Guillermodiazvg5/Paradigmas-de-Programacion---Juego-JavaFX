@@ -74,6 +74,11 @@ public class mascotaVirtual {
   public void realizarAccion()
   {
   }
+  
+  public boolean activarMascota()
+  {
+      return false;
+  }
 
 
 }

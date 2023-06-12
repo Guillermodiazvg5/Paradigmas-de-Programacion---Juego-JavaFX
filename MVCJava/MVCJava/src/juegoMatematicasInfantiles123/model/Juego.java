@@ -14,17 +14,15 @@ public class Juego {
   private String descripcion;
   private Jugador jugador;
   private Preguntas pregunta;
-  private Operaciones operacion;
   
   //
   // Constructors
   //
 
-    public Juego(String descripcion, Jugador jugador, Preguntas pregunta, Operaciones operacion) {
+    public Juego(String descripcion, Jugador jugador, Preguntas pregunta) {
         this.descripcion = descripcion;
         this.jugador = jugador;
-        this.pregunta = pregunta;
-        this.operacion = operacion;
+        this.pregunta = pregunta;       
     }
   
   
@@ -56,16 +54,7 @@ public class Juego {
         this.pregunta = pregunta;
     }
 
-    public Operaciones getOperacion() {
-        return operacion;
-    }
-
-    public void setOperacion(Operaciones operacion) {
-        this.operacion = operacion;
-    }
-
-
-  
+      
   //Class methods
 
   /**
