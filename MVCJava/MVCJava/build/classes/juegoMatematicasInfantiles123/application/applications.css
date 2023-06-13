@@ -39,9 +39,9 @@
     -fx-background-color: rgba(255, 255, 255, 0.7);
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
     -fx-background-radius: 30;
-    -fx-text-fill: navy;
+    -fx-text-fill: black;
     -fx-font-family: "Bernard MT Condensed";
-    -fx-font-size: 24px;
+    -fx-font-size: 20px;
     -fx-font-weight: bold;
 }
 
@@ -55,21 +55,42 @@
     -fx-font-weight: bold;
 }
 
-#textBox2 {
+#labels {
     -fx-background-color: rgba(255, 255, 255, 0.5);
-    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 5, 0, 0, 0);
     -fx-background-radius: 30;
-    -fx-text-fill: black; 
+    -fx-text-fill: ff7300; 
     -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 30px;
     -fx-font-weight: bold;
 }
 
+#label9 {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 5, 0, 0, 0);
+    -fx-background-radius: 30;
+    -fx-text-fill: ff7300; 
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
 
-#textBox3 {
+#button9 {
     -fx-background-color: rgba(255, 255, 255, 0.5);
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
     -fx-background-radius: 30;
-    -fx-text-fill: black; 
+    -fx-text-fill: yellow; 
     -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+#button8 {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 0);
+    -fx-background-radius: 30;
+    -fx-text-fill: ff7300; 
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 30px;
     -fx-font-weight: bold;
 }
