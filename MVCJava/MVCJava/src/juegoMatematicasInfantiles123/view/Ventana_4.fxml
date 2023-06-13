@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="juegoMatematicasInfantiles123.Controller.Juego">
    <children>
       <ImageView fitHeight="514.0" fitWidth="815.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
@@ -14,7 +13,7 @@
             <Image url="@../../Imagenes_Interfaz/4.Opciones.png" />
          </image>
       </ImageView>
-      <Button layoutX="296.0" layoutY="158.0" mnemonicParsing="false" onAction="#realizarSumas" prefHeight="47.0" prefWidth="214.0" text="Sumar" textFill="YELLOW">
+      <Button layoutX="296.0" layoutY="158.0" mnemonicParsing="false" onAction="#realizarSumas" prefHeight="47.0" prefWidth="214.0" text="Sumar" textFill="#ffff03">
          <font>
             <Font name="System Italic" size="20.0" />
          </font>

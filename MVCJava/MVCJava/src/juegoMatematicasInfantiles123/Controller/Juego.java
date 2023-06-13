@@ -6,7 +6,7 @@
 package juegoMatematicasInfantiles123.Controller;
 
 import java.io.IOException;
-import javafx.event.ActionEvent;                    // generado con   scene Builder
+import javafx.event.ActionEvent;                    // generado con   scene Builders
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
