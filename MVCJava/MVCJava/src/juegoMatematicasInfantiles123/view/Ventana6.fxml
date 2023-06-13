@@ -26,7 +26,7 @@
                   <Font size="18.0" />
                </font>
             </Text>
-            <Text fill="#6eff2b" layoutX="119.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESPUESTA CORRECTA">
+            <Text fill="#7cee47" layoutX="119.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESPUESTA CORRECTA">
                <font>
                   <Font name="System Bold" size="34.0" />
                </font>
