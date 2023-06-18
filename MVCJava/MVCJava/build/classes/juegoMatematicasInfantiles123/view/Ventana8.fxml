@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1">
+   <children>
+      <ImageView fitHeight="511.0" fitWidth="757.0" layoutX="-33.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-68.0" AnchorPane.leftAnchor="-33.0" AnchorPane.rightAnchor="-50.0" AnchorPane.topAnchor="-43.0">
+         <image>
+            <Image url="@../application/imagenes/fondoVentana1.png" />
+         </image>
+      </ImageView>
+      <TextField id="labels" layoutX="204.0" layoutY="44.0" stylesheets="@../application/applications.css" text="Felicidades ¡Ganaste!" />
+      <TextField id="labels" layoutX="204.0" layoutY="366.0" stylesheets="@../application/applications.css" text="Escoge una mascota" />
+      <ImageView fitHeight="115.0" fitWidth="107.0" layoutX="14.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../application/imagenes/catbird%20image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="107.0" layoutX="593.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../application/imagenes/pet3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="108.0" layoutX="14.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../application/imagenes/pet4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="122.0" layoutX="578.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../application/imagenes/pet1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="107.0" layoutX="14.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../application/imagenes/pet5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="122.0" layoutX="578.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../application/imagenes/pet2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
