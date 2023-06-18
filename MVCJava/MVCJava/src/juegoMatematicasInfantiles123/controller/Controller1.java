@@ -23,7 +23,7 @@ public class Controller1 {
         stage.setScene(scene);
         stage.show();
         this.stage.close();
-        
+        // comentario 
     }
 
     public void setStage(Stage primaryStage) {
