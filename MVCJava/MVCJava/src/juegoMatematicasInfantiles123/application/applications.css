@@ -94,3 +94,13 @@
     -fx-font-size: 30px;
     -fx-font-weight: bold;
 }
+
+#button10 {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 0);
+    -fx-background-radius: 30;
+    -fx-text-fill: ff7300; 
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}

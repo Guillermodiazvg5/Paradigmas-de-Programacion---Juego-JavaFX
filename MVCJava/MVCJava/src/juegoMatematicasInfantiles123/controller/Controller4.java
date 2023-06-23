@@ -1,13 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package juegoMatematicasInfantiles123.controller;
+package juegoMatematicasInfantiles123.Controller;
 
-/**
- *
- * @author Acer
- */
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+
 public class Controller4 {
-    
+
+    @FXML
+    void seleccionarOperacionDividir(ActionEvent event) {
+
+    }
+
+    @FXML
+    void seleccionarOperacionMultiplicar(ActionEvent event) {
+
+    }
+
+    @FXML
+    void seleccionarOperacionRestar(ActionEvent event) {
+
+    }
+
+    @FXML
+    void seleccionarOperacionSumar(ActionEvent event) {
+
+    }
+
 }

@@ -10,7 +10,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import juegoMatematicasInfantiles123.controller.Controller1;
+import juegoMatematicasInfantiles123.Controller.Controller1;
+
+
+
+
+
+
+
 
 /**
  *
@@ -20,13 +27,14 @@ public class Main extends Application {
     
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/juegoMatematicasInfantiles123/view/Ventana1.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/juegoMatematicasInfantiles123.view/Ventana1.fxml")); // carga la vista1 con sus atributos 
         Parent root = loader.load();
-        Scene scene =new Scene(root);
-        primaryStage.setScene(scene);
-        Controller1 controller = loader.getController();
-        controller.setStage(primaryStage);
-        primaryStage.show();
+        Scene scene =new Scene(root);                   // creamos la escena
+        primaryStage.setScene(scene);                        // la ventana Stage mostrar la escena
+        Controller1 controller = loader.getController();                         // carga la vista ( loader ) al controlador1
+        
+        controller.setStage(primaryStage);                   // creamos un metodo del controlador para enviar la ventana
+        primaryStage.show();                                 // mostramos la ventana
     }
 
     /**

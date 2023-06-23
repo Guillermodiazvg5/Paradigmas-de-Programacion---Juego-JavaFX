@@ -7,29 +7,29 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="juegoMatematicasInfantiles123.controller.Controller4">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="juegoMatematicasInfantiles123.controller.Controller4">
    <children>
       <ImageView fitHeight="514.0" fitWidth="815.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../application/imagenes/opciones.png" />
          </image>
       </ImageView>
-      <Button id="button9" layoutX="296.0" layoutY="158.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Sumar" textFill="#ffff03">
+      <Button id="button9" layoutX="296.0" layoutY="158.0" mnemonicParsing="false" onAction="#seleccionarOperacionSumar" prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Sumar" textFill="#ffff03">
          <font>
             <Font name="System Italic" size="20.0" />
          </font>
       </Button>
-      <Button id="button9" layoutX="296.0" layoutY="235.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Restar" textFill="YELLOW">
+      <Button id="button9" layoutX="296.0" layoutY="235.0" mnemonicParsing="false" onAction="#seleccionarOperacionRestar" prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Restar" textFill="YELLOW">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button id="button9" layoutX="296.0" layoutY="307.0" mnemonicParsing="false"  prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Multiplicar" textFill="YELLOW">
+      <Button id="button9" layoutX="296.0" layoutY="307.0" mnemonicParsing="false" onAction="#seleccionarOperacionMultiplicar" prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Multiplicar" textFill="YELLOW">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button id="button9" layoutX="300.0" layoutY="385.0" mnemonicParsing="false"  prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Dividir" textFill="YELLOW">
+      <Button id="button9" layoutX="300.0" layoutY="385.0" mnemonicParsing="false" onAction="#seleccionarOperacionDividir" prefHeight="47.0" prefWidth="214.0" stylesheets="@../application/applications.css" text="Dividir" textFill="YELLOW">
          <font>
             <Font size="20.0" />
          </font>
