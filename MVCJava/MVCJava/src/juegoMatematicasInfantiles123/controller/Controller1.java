@@ -18,7 +18,7 @@ public class controller1 {
     void showVentana2(ActionEvent event) throws IOException {
         
         
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/juegoMatematicasInfantiles123.view/Ventana2.fxml")); // carga la vista1 con sus atributos 
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/juegoMatematicasInfantiles123/view/Ventana2.fxml")); // carga la vista1 con sus atributos 
         Parent root = loader.load();
         controller2 controller = loader.getController();
         Scene scene = new Scene(root); 
