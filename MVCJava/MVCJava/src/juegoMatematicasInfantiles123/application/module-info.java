@@ -15,8 +15,10 @@ module MVCJava {
     requires javafx.swing;
     requires javafx.web;
     
-    
+    opens juegoMatematicasInfantiles123.Controller  to javafx.fxml , javafx.graphics; 
     opens juegoMatematicasInfantiles123.application  to javafx.graphics ,javafx.fxml; 
-    opens juegoMatematicasInfantiles123.controller to javafx.fxml;
+    opens juegoMatematicasInfantiles123.view  to javafx.fxml , javafx.graphics; 
+    opens juegoMatematicasInfantiles123.model  to javafx.graphics ,javafx.fxml; 
+    
 }
 

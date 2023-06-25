@@ -6,8 +6,8 @@ package juegoMatematicasInfantiles123.Controller;
 
 /**
  *
- * @author Acer
+ * @author guill
  */
-public class Controller5 {
+public class controller5 {
     
 }

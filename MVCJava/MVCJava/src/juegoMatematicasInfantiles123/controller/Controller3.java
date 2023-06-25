@@ -1,13 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package juegoMatematicasInfantiles123.Controller;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-
-public class Controller3 {
-
-    @FXML
-    void mostarVentana_4(ActionEvent event) {
-
-    }
-
+/**
+ *
+ * @author guill
+ */
+public class controller3 {
+    
 }

@@ -8,27 +8,37 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Controller1 {                     // controlador ventana # 1
-    
-    private Stage stage;
 
+public class controller1 {
+
+    private Stage stage ;
+    
+    
     @FXML
     void showVentana2(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/juegoMatematicasInfantiles123.view/Ventana2.fxml"));
+        
+        
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/juegoMatematicasInfantiles123.view/Ventana2.fxml")); // carga la vista1 con sus atributos 
         Parent root = loader.load();
-        Controller2 controller = loader.getController();
-        controller.setStage(stage);
-        Scene scene = new Scene(root);
-        Stage stage = new Stage();                // creamos la ventana
+        controller2 controller = loader.getController();
+        Scene scene = new Scene(root); 
+        Stage stage = new Stage() ;
         stage.setScene(scene);
-        controller.init(stage,this);             // Ventana 2
-        stage.show();                            // mostramos ventana 2
-        this.stage.close();                     // cerramos ventana 1
+        
+        controller.init(stage ,this);
+        
+        stage.show();                                    // mostramos esta ventana # 2
+        this.stage.close();                              // cerramos la ventana # 1
+        
+        
+
+    }
+
+    public void setStage(Stage primaryStage) {                   // metodo set generado desde el Main 
+        
+        stage = primaryStage ;                                  // guarda la ventana que viene desde el MAIN 
         
     }
 
-    public void setStage(Stage primaryStage) {         // autogenerado desde el Main 
-        stage = primaryStage;                          // guarde la ventana enviada desde el Main .
-    }
-
+   
 }
